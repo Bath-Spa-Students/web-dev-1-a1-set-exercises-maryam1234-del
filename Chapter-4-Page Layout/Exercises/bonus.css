@@ -1,0 +1,35 @@
+div{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 20px;
+    margin: 25px;
+    border: 4px;
+    line-height: 100px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+body{
+    margin: 100px auto;
+    width: max-content;
+}
+.div1{
+    margin:15px ;
+    box-shadow:5px solid rgb(red, green, blue) ;
+    border: 7px 7px 5px;
+}
+.div2{
+    margin:15px ;
+    box: shadow 7px 7px 5px solid black ;
+    border:  5px solid rgb(red, green, blue) ;
+}
+.div3{
+    margin:35px ;
+    border-radius: 25px ;
+    border: none;
+}
+.div4{
+    margin:15px ;
+    border:5px sienna ;
+    text-shadow: 5px 5px 1px;
+}
