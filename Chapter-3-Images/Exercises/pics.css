@@ -1,0 +1,67 @@
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: -o-linear-gradient(gold,black,grey);
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+}  
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px blueviolet;
+    width: auto;
+}
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 2px 2px blue;
+    padding: 15px;
+    font-size: 24px;
+    font-style: italic;
+}
+.pics1{
+    margin: auto;
+    width: 75%;
+    margin-bottom: 55px;
+}
+.pics2{
+    margin: auto;
+    width: 75%;
+    margin-bottom: 55px;
+}
+.pics3{
+    margin: auto;
+    width: 75%;
+    margin-bottom: 55px;
+}
+.pics1 img:hover{
+    filter: grayscale();
+}
+.pics2 img:hover{
+    filter: saturate(5);
+}
+.pics3 img:hover{
+    filter: blur(5px);
+}
+figcaption{
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+    text-shadow: 2px 2px blue;
+    color: whitesmoke;
+}
+.pics1 img{
+    width: 90%;
+}
+.pics2 img{
+    width: 90%;
+}
+.pics3 img{
+    width: 90%;
+}
