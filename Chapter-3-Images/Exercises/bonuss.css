@@ -1,0 +1,35 @@
+div{
+    display: inline-block;
+    font-family: Verdana;
+    font-size:  20px;
+    margin: 25px;
+    border: 5px solid black;
+    line-height: 100px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+body{
+    margin: 100px auto;
+    width: max-content;
+}
+.div1{
+    margin: 15px;
+    border: 5px solid blue;
+    box-shadow: 7px 7px 5px red;
+}
+.div2{
+    margin: 15px;
+    border: 5px solid green;
+    box-shadow: 7px 7px 5px navy;
+}
+.div3{
+    margin: 35px;
+    border: none;
+    border-radius: 25px;
+}
+.div4{
+    margin: 15px;
+    border: 5px solid rgb(77, 13, 116);
+    text-shadow: 5px 5px 1px;
+}
