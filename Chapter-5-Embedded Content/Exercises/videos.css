@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+    background-color: royalblue;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-bottom: 80px;
+}
+footer{
+    background-color: rgb(41, 9, 9);
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.TRAILER{
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
