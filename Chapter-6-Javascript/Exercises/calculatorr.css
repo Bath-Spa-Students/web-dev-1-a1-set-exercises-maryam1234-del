@@ -1,0 +1,73 @@
+body{
+    background-color:whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(22, 6, 108);
+} 
+h1{
+    font-size: 60px;
+    margin: 0 0 10px;
+    color: rgb(0, 0,0);
+}
+hr {
+     width: 40%;
+     margin: 0 auto 30px;
+     border: 1px solid #000;
+}
+input{
+    font-size: 22px;
+    color: rgb(0, 0,0);
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px 0  5px 20px;
+}
+input:focus{box-shadow: 0 0 10px rgb(0, 0,0);}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+}
+button:hover{
+    color: rgb(0, 0,0);
+    box-shadow: 0 0 10px rgb(0, 0,0);
+}
+.calc {
+    background-color: rgb(155, 198,223);
+    height: 400px;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 35px;
+    border-radius: 15px;
+    border: 5px solid#0000;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) translate(-50%);
+}
+.input-cost{
+    display: flex;
+    justify-content: center;
+}
+.input-cost div {
+    background-color: blueviolet;
+    border-radius: 10px;
+    width: 100px;
+    height:280px;
+    margin: 10px;
+}
+.input p {
+    font-size: 30px;
+    margin: 10px 160px;
+    text-align: left;
+}
+.cost p{font-size: 50px; margin: 40px;}
+#cost{
+    text-decoration: underline;
+    text-shadow: 0 0 10px rgb(0, 0,0);
+}
+a{text-decoration: none; color:rgb(0, 0,0)}
+a:hover{color: grey;}

@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #501957;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #6c1d6f;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.study-items,
+.item-details,
+.additional-resources {
+    flex: 1;
+    padding: 1rem;
+}
+
+.study-items ul {
+    list-style-type: none;
+}
+
+.study-items ul li {
+    background-color: #f4f4f4;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #170a0a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
